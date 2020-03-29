@@ -13,14 +13,19 @@
       grid-template-columns: auto auto auto auto;
       grid-gap: 5px;
       background-color: grey;
-      padding: 5px;
+      padding: 2px;
     }
 
     .grid-container > div {
       background-color: rgba(255, 255, 255, 0.8);
-      border: 1px solid black;
+      border: 0.5px solid black;
       text-align: center;
-      font-size: 20px;
+      font-size: 17px;
+    }
+
+    .youtube {
+      align-items: center;
+      position: relative;
     }
   </style>
 
@@ -43,32 +48,97 @@
 
     <h3>Lecture Transcripts:</h3>
     <div class="grid-container">
-      <div><a href="transcript01.html">01</a></div>
-      <div><a href="transcript02.html">02</a></div>
-      <div><a href="transcript03.html">03</a></div>
-      <div><a href="transcript04.html">04</a></div>
-      <div><a href="transcript05.html">05</a></div>
-      <div><a href="transcript06.html">06</a></div>
-      <div><a href="transcript07.html">07</a></div>
-      <div><a href="transcript08.html">08</a></div>
-      <div><a href="transcript09.html">09</a></div>
-      <div><a href="transcript10.html">10</a></div>
-      <div><a href="transcript11.html">11</a></div>
-      <div><a href="transcript12.html">12</a></div>
-      <div><a href="transcript13.html">13</a></div>
-      <div><a href="transcript14.html">14</a></div>
-      <div><a href="transcript15.html">15</a></div>
-      <div><a href="transcript16.html">16</a></div>
-      <div><a href="transcript17.html">17</a></div>
-      <div><a href="transcript18.html">18</a></div>
-      <div><a href="transcript19.html">19</a></div>
-      <div><a href="transcript20.html">20</a></div>
-      <div><a href="transcript21.html">21</a></div>
-      <div><a href="transcript22.html">22</a></div>
-      <div><a href="transcript23.html">23</a></div>
-      <div><a href="transcript24.html">24</a></div>
-      <div><a href="transcript25.html">25</a></div>
-      <div><a href="transcript26.html">26</a></div>
+      <div><a href="a/transcript01.html">Introduction to the Course</a></div>
+      <div><a href="transcript01.html">Introduction to the Course</a></div>
+      <div>
+        <a href="transcript02.html"
+          >Classical Views of Disease: Hippocrates, Galen, and Humoralism</a
+        >
+      </div>
+      <div>
+        <a href="transcript03.html">Plague (I): Pestilence as Disease</a>
+      </div>
+      <div>
+        <a href="transcript04.html">Plague (II): Responses and Measures</a>
+      </div>
+      <div>
+        <a href="transcript05.html"
+          >Plague (III): Illustrations and Conclusions</a
+        >
+      </div>
+      <div>
+        <a href="transcript06.html">Smallpox (I): "The Speckled Monster"</a>
+      </div>
+      <div>
+        <a href="transcript07.html"
+          >Smallpox (II): Jenner, Vaccination, and Eradication</a
+        >
+      </div>
+      <div>
+        <a href="transcript08.html"
+          >Nineteenth-Century Medicine: The Paris School of Medicine</a
+        >
+      </div>
+      <div>
+        <a href="transcript09.html"
+          >Asiatic Cholera (I): Personal Reflections</a
+        >
+      </div>
+      <div>
+        <a href="transcript10.html">Asiatic Cholera (II): Five Pandemics</a>
+      </div>
+      <div>
+        <a href="transcript11.html"
+          >The Sanitary Movement and the "Filth Theory of Disease"</a
+        >
+      </div>
+      <div>
+        <a href="transcript12.html"
+          >Syphilis: From the "Great Pox" to the Modern Version</a
+        >
+      </div>
+      <div>
+        <a href="transcript13.html">Contagionism versus Anticontagionism</a>
+      </div>
+      <div><a href="transcript14.html">The Germ Theory of Disease</a></div>
+      <div>
+        <a href="transcript15.html">Tropical Medicine as a Discipline</a>
+      </div>
+      <div><a href="transcript16.html">Malaria (I): The Case of Italy</a></div>
+      <div>
+        <a href="transcript17.html">Malaria (II): The Global Challenge</a>
+      </div>
+      <div>
+        <a href="transcript18.html">Tuberculosis (I): The Era of Consumption</a>
+      </div>
+      <div>
+        <a href="transcript19.html">Tuberculosis (II): After Robert Koch</a>
+      </div>
+      <div><a href="transcript20.html">Pandemic Influenza</a></div>
+      <div><a href="transcript21.html">The Tuskegee Experiment</a></div>
+      <div><a href="transcript22.html">AIDS (I)</a></div>
+      <div><a href="transcript23.html">AIDS (II)</a></div>
+      <div>
+        <a href="transcript24.html">Poliomyelitis: Problems of Eradication</a>
+      </div>
+      <div>
+        <a href="transcript25.html"
+          >SARS, Avian Influenza, and Swine Flu: Lessons and Prospects</a
+        >
+      </div>
+      <div><a href="transcript26.html">Final Q&A</a></div>
+    </div>
+
+    <h3>Lecture Videos:</h3>
+    <div id="youtube">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/videoseries?list=PL3AE7B3B6917DE8E6"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
     </div>
 
     <h3>About Professor Frank Snowden:<br /></h3>
@@ -87,13 +157,23 @@
       American Historical Association, and the 2008 Welch Medal from the
       American Association for the History of Medicine.
     </p>
-    <p>
-      Yale University 2011. Some rights reserved. Unless otherwise indicated on
-      this page, the pages contained within this folder or on the Open Yale
-      Courses website, all content on this page is licensed under a Creative
-      Commons License (Attribution-NonCommercial-ShareAlike 3.0). Please see the
-      <a href="content/terms-of-use.html">Terms of Use</a> page for more
-      information.
-    </p>
+    <h4>
+      <a href="https://oyc.yale.edu/history/hist-234">Yale Course Page</a>
+      <h4>
+        <p>
+          Yale University 2011. Some rights reserved. Unless otherwise indicated
+          on this page, the pages contained within this folder or on the Open
+          Yale Courses website, all content on this page is licensed under a
+          Creative Commons License (Attribution-NonCommercial-ShareAlike 3.0).
+          Please see the
+          <a href="content/terms-of-use.html">Terms of Use</a> page for more
+          information.
+        </p>
+
+        <body>
+          <html></html>
+        </body>
+      </h4>
+    </h4>
   </body>
 </html>
